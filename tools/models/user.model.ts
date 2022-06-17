@@ -7,8 +7,10 @@ export class UserModel{
     name: string;
     surname: string;
     image: string;
+    email: string;
     password: string;
     passwordHash: string;
+    birthDate: string;
     audit: AuditModel;
     roles: RoleModel[];
     groups: GroupModel[];
